@@ -1,8 +1,11 @@
 # Description
-My portfolio built with HTML, CSS, and JS. 
+
+My portfolio built with HTML, CSS, and JS.
 
 # PersonalWebsite
-My Personal Website Deployed on Heroku. 
 
+My Personal Website Deployed on Heroku.
 
 # https://anuoluwapo-oyetibo.herokuapp.com/
+
+### `works best on chrome browser`
