@@ -524,7 +524,7 @@ img {
     padding: 15px;
     width: 350px;
     height: 350px;
-    background: url(./images/aiChatroom.JPG) #555;
+    background: url(images/aiChatroom.JPG) #555;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -542,7 +542,7 @@ img {
     padding: 15px;
     width: 350px;
     height: 350px;
-    background: url(./images/3dTiles.JPG) #1e1e26;
+    background: url(images/3dTiles.JPG) #1e1e26;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -560,7 +560,7 @@ img {
     padding: 15px;
     width: 350px;
     height: 350px;
-    background: url(./images/netflixClone.JPG) #1e1e26;
+    background: url(images/netflixClone.JPG) #1e1e26;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
