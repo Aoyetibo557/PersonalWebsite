@@ -566,7 +566,24 @@ img {
     background-size: cover;
     border-radius: 10px;
     box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    /* color: #1e1e26; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 10px 10px;
+}
+
+.spotify_clone_box{
+    padding: 15px;
+    width: 350px;
+    height: 350px;
+    background: url(images/spotifyClone.JPG) #1e1e26;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
     color: white;
     display: flex;
     flex-direction: column;
