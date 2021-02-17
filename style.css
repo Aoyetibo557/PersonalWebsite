@@ -230,36 +230,30 @@ img {
     width: 100%;
 }
 
-
-/* .work .content .workBx {
-    width: 50%;
-    padding: 20px;
+.projects__container{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.work .content .workBx video {
-    max-width: 100%;
+._box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
-
-.work .content .workBx p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+._box__image{
+    max-width: 35vw;
+    margin-bottom: 10px;
 }
-
-.work .content .workBx p a {
-    text-decoration: none;
-    font-style: italic;
-    color: #222;
-    font-size: 16px;
-    text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+._box > p {
+    font-weight: 500;
+    font-size: 18px;
 }
-
-.work .content .workBx p a:hover {
-    text-decoration: underline;
-    background: #0b487a;
-    color: #fff;
-    padding: 4px;
-    transition: 0.5s;
-} */
 
 .skills {
     background: #f7f7f7;
@@ -385,6 +379,16 @@ img {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+._sub__btn{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
 
 .contactInfo {
     min-width: 40%;
@@ -434,181 +438,11 @@ img {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-/* Micellanioues classes */
-
-._hidden__projects {
-    display: none;
+._icons{
+    font-size: 25px;
+    margin-left: 10px;
 }
 
-._projects_content {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-._projects_content ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    list-style: none;
-}
-
-._project_box {
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: #1e1e26;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
-
-.details {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 250px;
-}
-
-._project_title {
-    text-decoration: overline;
-    font-size: 1.5em;
-    font-weight: 600;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.details div p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: lighter;
-}
-
-._project_links a {
-    padding: 5px;
-    text-decoration: none;
-    font-size: 30px;
-    color: #ccc
-}
-
-._project_links a:hover {
-    color: #222;
-    background: rgba(255, 255, 255, 0.336);
-    transition: 0.5s;
-    border-radius: 8px;
-}
-
-.lSAction>.lSPrev {
-    background: white;
-    opacity: 0.6;
-}
-
-.lSAction>.lSNext {
-    background: white;
-    opacity: 0.6;
-}
-
-
-/* Custom Styling */
-
-.ai_chatbox_box {
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: url(images/aiChatroom.JPG) #555;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    color: #1e1e26;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
-
-._3d_project_box {
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: url(images/3dTiles.JPG) #1e1e26;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    color: #1e1e26;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
-
-.netflix_clone__box{
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: url(images/netflixClone.JPG) #1e1e26;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
-
-.spotify_clone_box{
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: url(images/spotifyClone.JPG) #1e1e26;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
-.todo_box{
-    padding: 15px;
-    width: 350px;
-    height: 350px;
-    background: url(images/todoApp.JPG) #1e1e26;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
-    /* color: #1e1e26; */
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 10px 10px;
-}
 
 ._filter {
     filter: invert(1);
@@ -748,9 +582,19 @@ img {
 /*--responsive for mobile phone--*/
 
 @media(max-width:720px) {
-    ._project_box {
-        width: 94%;
-        height: 350px;
+    .projects__container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    ._box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        width: 100%;
     }
     .model {
         height: 250px;
